@@ -1,7 +1,9 @@
 # Evaluating LLM Judgment via Surgical Edits
+
+
 <div align="center">
   <a href="https://github.com/ktgiahieu/eval_llm_surgical_edits/raw/master/PAPER.pdf">
-    <img src="./figs/download_paper.svg" height="200" alt="Download Paper">
+    <img src="./figs/download_paper.svg" width="500">
   </a>
 </div>
 
@@ -11,11 +13,11 @@ The growing volume of scientific paper submissions raises interest in LLMs as re
 
 ### Micro-averaged Overall Effect Comparison
 
-![Micro-averaged Overall Effect Comparison](https://github.com/ktgiahieu/eval_llm_surgical_edits/blob/master/figs/overall/micro_avg_overall_effect_comparison_all.png)
+![Micro-averaged Overall Effect Comparison](./figs/overall/micro_avg_overall_effect_comparison_all.png)
 
 ### Effect Size by Flaw Category (Gemini 2.5 Pro)
 
-![Effect Size by Flaw Category](https://github.com/ktgiahieu/eval_llm_surgical_edits/blob/master/figs/planted_no_location/effect_size_gemini_2-5_pro.png)
+![Effect Size by Flaw Category](./figs/planted_no_location/effect_size_gemini_2-5_pro.png)
 
 ---
 
