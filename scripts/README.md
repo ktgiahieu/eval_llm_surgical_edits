@@ -164,10 +164,10 @@ The evaluation uses several metrics to assess LLM performance:
 
 ## Model Support
 
-The framework supports multiple LLM providers:
+The framework supports multiple LLM providers used in our study:
 
-- **Google Gemini**: `gemini-2.0-flash-lite`, `gemini-2.5-pro`, `gemini-3-pro`, etc.
-- **OpenAI GPT**: `gpt-5.1` (via `verify_revision_quality_openai.py`)
+- **Google Gemini**: `gemini-2.5-flash-lite`, `gemini-2.5-pro`, `gemini-3-pro`, etc.
+- **OpenAI GPT**: `gpt-5.1`, `o3` (via `verify_revision_quality_openai.py`)
 - **Qwen (via API)**: `qwen3-235B` (via `verify_revision_quality_qwen.py`)
 - **Open-source models**: `llama4-maverick-17b`, `qwen3-235B`, ... (by hosting your intended model with [vLLM](https://github.com/vllm-project/vllm), then run `verify_revision_quality_vllm.py`)
 
